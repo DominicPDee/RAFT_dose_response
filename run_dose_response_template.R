@@ -317,3 +317,4 @@ LOO_compare_strain <- as.data.frame(loo_compare(list("fixed" = LOO_fixed,
 
 LOO_compare_strain$p_value <- pnorm(LOO_compare_strain$elpd_diff/LOO_compare_strain$se_diff, lower.tail = TRUE) # = p-value
 LOO_compare_strain
+
